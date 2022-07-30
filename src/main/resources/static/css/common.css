@@ -1,0 +1,138 @@
+/* ここからオリジナル */
+
+body {
+	background-color: #CEF9DC;
+}
+
+/* ここからセカンド */
+h2 {
+	color: #009966;
+}
+ul, li {
+	list-style-type: none;
+}
+
+ul {
+	padding : 0;
+}
+
+li {
+	border-bottom: 1px solid #ddd;
+}
+
+.outer {
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 980px;
+}
+
+.outer .main{
+	padding: 40px;
+}
+.outer .main .inner{
+	padding: 10px;
+}
+
+.outer .main .explanation{
+	margin: 20px 20px 40px;
+    background-color: #efefef;
+    padding: 2em 2em;
+    margin-bottom: 30px;
+}
+
+
+.outer .main .invisible{
+	display: none;
+
+}
+
+.button {
+	display:flex;
+}
+
+.check {
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #008000;
+	padding: 10px 40px;
+}
+
+.correct {
+	color: #33CC00;
+	text-align: center;
+	font-size: 100%;
+}
+.correct.notShow{
+	display: none;
+}
+.error {
+	color: #CC3333;
+	text-align: center;
+	font-size: 100%;
+}
+.error.notShow {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+    body {
+        background-color:#2262D1;
+    }
+    .outer {
+		max-width: 980px;
+	}
+}
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+    
+     body {
+        background-color:#f10010;
+    }
+    
+    h1 {
+		white-space: nowrap;
+	}
+    .outer {
+		max-width: 980px;
+	}
+}
+@media screen and (max-width: 480px) {
+/* 480pxまでの幅の場合に適応される */
+    
+    body {
+        background-color:#F9DF2C;
+    }
+    
+    h1 {
+		white-space: nowrap;
+	}
+    .main {
+	
+	}
+}
+@media screen and (max-width: 320px) {
+/* 320pxまでの幅の場合に適応される */
+    
+    body {
+        background-color: #68B876;
+    }
+    h1 {
+		white-space: nowrap;
+	}
+	.main {
+	
+	}   
+
+}
